@@ -1,6 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 require("../includes/database_connect.php");
 
 $full_name = $_POST['full_name'];
